@@ -21,7 +21,7 @@ from tqdm import tqdm
 BASE_URL = "https://vpa.com.vn/v2/public/plates/search"
 TAKE = 50                 # vi trang đang  có 50 nên ở đay vụt 50 thôi không sợ chết api
 DELAY = (1.0, 2.0)        # nghỉ ngẫu nhiên trống fw chặn ip bot
-OUT = Path("data/raw")
+OUT = Path("/model/data/raw")
 
 session = requests.Session()
 session.headers.update({
